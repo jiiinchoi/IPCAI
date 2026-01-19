@@ -1,7 +1,7 @@
 # MRI + Text Multimodal Fusion for ET Presence Classification (BraTS + TextBraTS)
 
-간단한 **ET(Enhancing Tumor) 존재 여부(0/1) 분류** 프로젝트입니다.
-BraTS(원래 segmentation) 마스크에서 ET(라벨=4) voxel 유무로 케이스 라벨을 생성하고, **MRI(t1ce) + 텍스트(TextBraTS)**를 **late fusion**으로 결합해 성능/강건성/텍스트 기여도를 분석했습니다.
+간단한 ET(Enhancing Tumor) 존재 여부(0/1) 분류 프로젝트입니다.
+BraTS(원래 segmentation) 마스크에서 ET(라벨=4) voxel 유무로 케이스 라벨을 생성하고, MRI(t1ce) + 텍스트(TextBraTS)를 late fusion으로 결합해 성능/강건성/텍스트 기여도를 분석했습니다.
 
 ## 핵심 아이디어
 
